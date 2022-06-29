@@ -12,13 +12,20 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .bg{background-color: rgba(0, 0, 0, 0.5);}
   </style>
 </head>
 <body>
-    <h1 class="w-[350px] h-[660px] mx-auto border-2 border-solid border-black mt-[5px]">
+    <h1 class="w-[350px] h-[660px] mx-auto  mt-[5px]">
       <nav class="">
         <img src="./images/logo.svg" alt="" class="float-left">
         <img src="./images/icon-menu.svg" alt="" class="float-right hover:cursor-pointer">
+
+        <div id="mobileMenu" class="absolute z-10 w-[340px] h-[660px] bg">
+        <div class="ml-[97px] absolute z-50 w-[255px] h-[660px] bg-white ">
+            <img src="./images/icon-close-menu.svg" alt="" class="w-[30px] float-right mt-5 mr-5">
+        </div>
+      </div>
       </nav>
       <div id="hero" class="">
         <img src="./images/image-hero-mobile.png" alt="" class="pt-5">
@@ -30,10 +37,10 @@
           <button class="text-white bg-black rounded-xl w-[130px] h-[45px] mt-[40px]">Learn more</button>
       </div>
       <div class="flex space-x-5 mt-[40px]">
-          <img src="./images/client-databiz.svg" alt="" class="w-[70px]">
-          <img src="./images/client-audiophile.svg" alt="" class="w-[70px]">
-          <img src="./images/client-meet.svg" alt="" class="w-[70px]">
-          <img src="./images/client-maker.svg" alt="" class="w-[70px]">
+          <img src="./images/client-databiz.svg" alt="" class="w-[75px] h-[25px]">
+          <img src="./images/client-audiophile.svg" alt="" class="w-[70px] h-[35px]">
+          <img src="./images/client-meet.svg" alt="" class="w-[70px] h-[20px]">
+          <img src="./images/client-maker.svg" alt="" class="w-[70px] h-[20px]"> 
       </div>
     </h1>
   
