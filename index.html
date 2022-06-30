@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-slate-200">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -21,9 +21,47 @@
         <img src="./images/logo.svg" alt="" class="float-left">
         <img src="./images/icon-menu.svg" alt="" class="float-right hover:cursor-pointer">
 
-        <div id="mobileMenu" class="absolute z-10 w-[340px] h-[660px] bg">
-        <div class="ml-[97px] absolute z-50 w-[255px] h-[660px] bg-white ">
+        <div id="mobileMenu" class="absolute z-10 w-[340px] h-[660px] bg ">
+          <div class="ml-[97px] absolute z-50 w-[255px] h-[660px] bg-white ">
             <img src="./images/icon-close-menu.svg" alt="" class="w-[30px] float-right mt-5 mr-5">
+            <!--Features Menu-->
+            <div class="mt-[70px] ml-[10px]">
+              <p class="text-[18px] text-gray-600 flex">Features <img src="./images/icon-arrow-up.svg" class="ml-5 w-[12px]"></p>
+              <div id="featuresMenu" class="">
+                <div class="flex">
+                  <img src="./images/icon-todo.svg" alt="" class="mt-5 ml-5">
+                  <p class="ml-5 mt-5 text-gray-600"> Todo List</p>
+                </div>
+                <div class=" flex">
+                  <img src="./images/icon-calendar.svg" alt="" class="mt-[10px] ml-5">
+                  <p class="ml-5 mt-[10px] text-gray-600"> Calender</p>
+                </div>
+                <div class="flex">
+                  <img src="./images/icon-reminders.svg" alt="" class="mt-[10px] ml-5">
+                  <p class="ml-5 mt-[10px] text-gray-600"> Reminders</p>
+                </div>
+                <div class="flex">
+                  <img src="./images/icon-planning.svg" alt="" class="mt-[10px] ml-5">
+                  <p class="ml-5 mt-[10px] text-gray-600"> Planning</p>
+                </div>
+            </div>
+            </div>
+            <!--Company Menu-->
+            <div class="mt-[20px] ml-[10px]">
+              <p class="text-[18px] text-gray-600 flex">Company <img src="./images/icon-arrow-up.svg" class="ml-5 w-[12px]"></p>
+                <div class="CompanyMenu ml-5 mt-5 text-gray-600 ">
+                    <p>History</p>
+                    <p class="mt-[10px]">Our Team</p>
+                    <p class="mt-[10px]">Blog</p>
+                </div>
+            </div>
+            <p class="mt-5 text-gray-600 ml-[10px]">Carreers</p>
+            <p class="mt-[10px] text-gray-600 ml-[10px]">About</p>
+
+            <div class="mx-auto w-[200px]">
+              <button class="text-gray-600 mt-5 block w-[50px] mx-auto">Login</button>
+              <button class="text-gray-600 mt-[20px] border-2 border-solid border-gray-600 rounded-xl w-[200px] h-[40px]">Register</button>
+            </div>
         </div>
       </div>
       </nav>
@@ -46,7 +84,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Mateusz Kroplewski</a>.
   </div>
 </body>
 </html>
