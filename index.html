@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js" defer></script>
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -19,11 +20,11 @@
     <h1 class="w-[350px] h-[660px] mx-auto  mt-[5px]">
       <nav class="">
         <img src="./images/logo.svg" alt="" class="float-left">
-        <img src="./images/icon-menu.svg" alt="" class="float-right hover:cursor-pointer">
+        <img src="./images/icon-menu.svg" alt="" id="showMenu" class="float-right hover:cursor-pointer">
 
-        <div id="mobileMenu" class="absolute z-10 w-[340px] h-[660px] bg ">
+        <div id="mobileMenu" class="absolute z-10 w-[340px] h-[660px] bg hidden">
           <div class="ml-[97px] absolute z-50 w-[255px] h-[660px] bg-white ">
-            <img src="./images/icon-close-menu.svg" alt="" class="w-[30px] float-right mt-5 mr-5">
+            <img src="./images/icon-close-menu.svg" alt="" id="closeMenu" class="w-[30px] float-right mt-5 mr-5 hover:cursor-pointer">
             <!--Features Menu-->
             <div class="mt-[70px] ml-[10px]">
               <p class="text-[18px] text-gray-600 flex">Features <img src="./images/icon-arrow-up.svg" class="ml-5 w-[12px]"></p>
