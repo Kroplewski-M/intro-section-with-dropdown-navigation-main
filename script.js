@@ -8,10 +8,30 @@ let featuresMenu = document.querySelector("#featuresMenu");
 let featuresArrow = document.querySelector("#featureArrow");
 let showFeaturesMenu = false;
 
+let featuresMobile = document.querySelector("#featuresMobile");
+let featuresMenuMobile = document.querySelector("#featuresMenuMobile");
+let featuresArrowMobile = document.querySelector("#featureArrowMobile");
+let showFeaturesMenuMobile = false;
+
 let company = document.querySelector("#company");
 let companyMenu = document.querySelector("#companyMenu");
 let companyArrow = document.querySelector("#companyArrow");
 let showCompanyMenu = false;
+
+let companyMobile = document.querySelector("#companyMobile");
+let companyMenuMobile = document.querySelector("#companyMenuMobile");
+let companyArrowMobile = document.querySelector("#companyArrowMobile");
+let showCompanyMenuMobile = false;
+
+featuresMobile.addEventListener("click", function () {
+  showFeaturesMenuMobile = !showFeaturesMenuMobile;
+  toggleMenu(featuresMenuMobile, featuresArrowMobile, showFeaturesMenuMobile);
+});
+
+companyMobile.addEventListener("click", function () {
+  showCompanyMenuMobile = !showCompanyMenuMobile;
+  toggleMenu(companyMenuMobile, companyArrowMobile, showCompanyMenuMobile);
+});
 
 company.addEventListener("click", function () {
   showCompanyMenu = !showCompanyMenu;
